@@ -141,11 +141,15 @@
   <ItemGroup>
     <ClCompile Include="Entity.cpp" />
     <ClCompile Include="Field2D.cpp" />
+    <ClCompile Include="LineOfSight.cpp" />
     <ClCompile Include="MapDetective.cpp" />
+    <ClCompile Include="SightSectore.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Entity.h" />
     <ClInclude Include="Field2D.h" />
+    <ClInclude Include="LineOfSight.h" />
+    <ClInclude Include="SightSectore.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

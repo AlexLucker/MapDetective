@@ -1,7 +1,8 @@
 #pragma once
 #include <vector>
-
+class Entity;
 #include "Entity.h"
+
 class Field2D
 {
 public:
