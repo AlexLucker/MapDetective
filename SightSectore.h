@@ -1,5 +1,6 @@
 #pragma once
 #include "LineOfSight.h"
+#include "Entity.h"
 class SightSector : public ILineOfSight
 {
 public:
@@ -11,5 +12,4 @@ public:
 private:
     double degrees;
     double distant;
-    static bool CalcVisible(Entity& A, Entity& B);
 };
