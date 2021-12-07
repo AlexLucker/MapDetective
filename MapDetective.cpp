@@ -1,17 +1,13 @@
 ﻿#include <iostream>
-#include <vector>>
+#include <vector>
+
+#include "Entity.h"
+#include "Field2D.h"
+
 using namespace std;
-class Map2D;
-class EntityOM; // Создание сущностей с учетом
+bool CheckVisible(Entity&, Entity&);
 
 
-
-class Map2D{ // Должен быть синглом
-public:
-private:
-    vector
-    
-};
 
 int main()
 {
