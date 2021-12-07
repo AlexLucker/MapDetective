@@ -1,10 +1,17 @@
 #pragma once
+#include <tuple>
+
 #include "Field2D.h"
-#include <functional>
+struct ILineOfSight;
 class Entity
 {
 public:
-	std::function<bool(Entity&, Entity&)> GetLineOfSight(); // Возвращают функцию обзора
+
+	std::tuple<double, double> pos();
+	std::tuple<double, double> vecRad();
+	ILineOfSight *LineOfSight; // Возвращают объект обзора
 private:
+	double _pos[2];
+	double _vecRad[2];
 };
 
