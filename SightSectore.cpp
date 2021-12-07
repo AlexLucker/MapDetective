@@ -1,6 +1,6 @@
 #include "SightSectore.h"
 #include "HelpFunc.h"
-SightSector::SightSector(double degrees, double distant) :degrees{ degrees }, distant{ distant }
+SightSector::SightSector(double degrees, double distant) :degrees{ degrees/2 }, distant{ distant }
 {
 }
 
