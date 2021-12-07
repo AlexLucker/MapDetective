@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="Entity.cpp" />
     <ClCompile Include="Field2D.cpp" />
+    <ClCompile Include="HelpFunc.cpp" />
     <ClCompile Include="LineOfSight.cpp" />
     <ClCompile Include="MapDetective.cpp" />
     <ClCompile Include="SightSectore.cpp" />
@@ -148,6 +149,7 @@
   <ItemGroup>
     <ClInclude Include="Entity.h" />
     <ClInclude Include="Field2D.h" />
+    <ClInclude Include="HelpFunc.h" />
     <ClInclude Include="LineOfSight.h" />
     <ClInclude Include="SightSectore.h" />
   </ItemGroup>

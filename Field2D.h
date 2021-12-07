@@ -7,6 +7,7 @@ class Field2D
 {
 public:
     static Field2D& GetMap();
+    int CalcVisibleFor(Entity& A);
 private:
     Field2D();
     static Field2D* Field;
